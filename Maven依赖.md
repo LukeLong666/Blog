@@ -9,6 +9,15 @@
 </dependency>
 ```
 
+## Spring Boot Web Starter
+```xml
+<!--spring boot web-->
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+```
+
 ## Spring Data Jpa Starter
 ```xml
 <!--Spring Data Jpa-->
