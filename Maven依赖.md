@@ -35,7 +35,7 @@
 </dependency>
 ```
 
-# Hutool
+## Hutool
 ```xml
 <!--hutool-->
 <dependency>
