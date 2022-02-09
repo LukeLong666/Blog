@@ -27,9 +27,16 @@
 </dependency>
 ```
 
-## Mybatis Starter
+## Mybatis
 ```xml
-<!--mybatis-->
+<!-- mybatis -->
+<dependency>
+	<groupId>org.mybatis</groupId>
+	<artifactId>mybatis</artifactId>
+	<version>3.4.5</version>
+</dependency>
+
+<!--mybatis starter-->
 <dependency>
 	<groupId>org.mybatis.spring.boot</groupId>
 	<artifactId>mybatis-spring-boot-starter</artifactId>
