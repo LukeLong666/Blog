@@ -16,3 +16,13 @@ config get requirepass
 #设置新的密码
 config set requirepass ******
 ```
+
+## Nacos
+```bash
+# 启动Nacos
+docker run -d --name luke_nacos -p 18848:8848 -e PREFER_HOST_MODE=hostname -e MODE=standalone nacos/nacos-server:v2.0.3
+
+# 修改配置文件
+docker exec -it luke_nacos /bin/bash
+vi conf/application.properties
+```
