@@ -1,3 +1,10 @@
+# Maven常用命令
+
+## 强制重新安装依赖
+```bash
+mvn clean install -e -U
+```
+
 # Maven常用依赖
 
 ## Spring Boot Starter
