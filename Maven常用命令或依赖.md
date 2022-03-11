@@ -34,7 +34,23 @@ mvn clean install -e -U
 </dependency>
 ```
 
+## Swagger
+
+```xml
+<!-- swagger2 -->
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+</dependency>
+<!-- swagger2-UI -->
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-ui</artifactId>
+</dependency>
+```
+
 ## Mybatis
+
 ```xml
 <!-- mybatis -->
 <dependency>
